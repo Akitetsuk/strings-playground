@@ -8,3 +8,4 @@ for (let i = 0; i < saludo.length; i++) {
 }
 
 // ¿Cuántas veces se ha ejecutado la línea 7 al hacer node ex2.js? ¿Por qué?
+//9 ya que recorre todas las posiciones que tiene saludo 
