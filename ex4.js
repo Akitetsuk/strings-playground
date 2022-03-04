@@ -6,12 +6,18 @@
 //haz un console.log de palabraSecreta[i] al inicio del bucle.
 
 let encontrado = false;
-let letraBuscada = "p";
+let letraBuscada = "y";
 let palabraSecreta = "arepa";
 let i = 0;
 
+
+
+// Voy a recorrer 'palabraSecreta' , letra a letra
+// Voy a ver si cada letra es igual a 'letraBuscada'
+// Si encuentro una letra que es la misma que 'letraBuscada' puedo decir que dicha letra se encuentra en 'palabraSecreta'
+
 while (!encontrado && i < palabraSecreta.length) {
-    encontrado = (palabraSecreta[i] != letraBuscada)
+    encontrado = (palabraSecreta[i] == letraBuscada)
     i++;
 }
 
